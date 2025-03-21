@@ -41,7 +41,7 @@ bool is_adjacent(const string& word1, const string& word2)
 {
     // checking if w1 and w2 are neighbors.
     if (word1 == word2)
-        return false;
+        return true;
 
     int w1_len = word1.length();
     int w2_len = word2.length();
